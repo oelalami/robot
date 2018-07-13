@@ -17,4 +17,4 @@ RUN mkdir  /usr/share/robot
 #WORKDIR  /usr/share/robot
 
 RUN chgrp -R 0 /usr/share/robot
- RUN chmod -R g+w /usr/share/robot
+ #RUN chmod -R g+w /usr/share/robot
