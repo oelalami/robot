@@ -12,9 +12,9 @@ RUN apt-get install -y python-wxgtk2.8
  RUN apt-get clean 
   RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN mkdir  /usr/share/robot
+#RUN mkdir  /usr/share/robot
 #VOLUME  /usr/share/robot
 #WORKDIR  /usr/share/robot
 
-RUN chgrp -R 0 /usr/share/robot
+#RUN chgrp -R 0 /usr/share/robot
  #RUN chmod -R g+w /usr/share/robot
