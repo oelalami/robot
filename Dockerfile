@@ -13,7 +13,7 @@ RUN apt-get -y update \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN mkdir  /usr/share/robot
-VOLUME  /usr/share/robot
+#VOLUME  /usr/share/robot
 #WORKDIR  /usr/share/robot
 
 RUN chgrp -R 0 /usr/share/robot && \
